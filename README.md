@@ -23,7 +23,7 @@ Cities of the World, Users will be able to see cities of the world with name, co
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tareq3/CitiesOfTheWorldFlutter.git
+   git clone https://github.com/tareq3/cities_of_the_world.git
    ```
 2. ```bash
    cd cities_of_the_world
