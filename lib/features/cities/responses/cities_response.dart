@@ -1,8 +1,5 @@
 import 'package:cities_of_the_world/network/models/pagination/api_paginated_result.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-
-import '../models/city_model.dart';
-
 part 'cities_response.freezed.dart';
 
 part 'cities_response.g.dart';

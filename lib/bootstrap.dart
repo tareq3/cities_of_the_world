@@ -28,11 +28,7 @@ void bootstrap(FutureOr<Widget> Function() builder) async {
         ],
       );
       Bloc.observer = AppBlocObserver();
-      await Hive.initFlutter();
-      Hive.registerAdapter(CityModelAdapter());
-      Hive.registerAdapter(CountryModelAdapter());
-      Hive.registerAdapter(CityPaginatedResultAdapter());
-      Hive.registerAdapter(PaginationMetaAdapter());
+      await _initHive();
 
       if (kReleaseMode) {
         await SentryFlutter.init(
@@ -50,4 +46,12 @@ void bootstrap(FutureOr<Widget> Function() builder) async {
     },
         (error, stackTrace) => log(error.toString(), stackTrace: stackTrace),
   );
+}
+
+Future<void> _initHive() async {
+  await Hive.initFlutter();
+  Hive.registerAdapter(CityModelAdapter());
+  Hive.registerAdapter(CountryModelAdapter());
+  Hive.registerAdapter(CityPaginatedResultAdapter());
+  Hive.registerAdapter(PaginationMetaAdapter());
 }

@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'package:cities_of_the_world/features/cities/widgets/primary_search_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:cities_of_the_world/features/cities/bloc/cities_bloc.dart';
 import 'package:cities_of_the_world/features/cities/widgets/layouts/city_list_layout.dart';
 import 'package:cities_of_the_world/features/cities/widgets/layouts/city_map_layout.dart';
 

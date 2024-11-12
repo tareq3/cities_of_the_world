@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
                   return child ?? Container();
                 },
                 debugShowCheckedModeBanner: false,
-                // routerConfig: getIt<AppRouter>().router,
                 title: 'Cities of the world',
                 theme: MyAppThemeConstants().myAppTheme(),
                 home: CitiesView(),

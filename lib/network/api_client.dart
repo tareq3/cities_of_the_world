@@ -18,15 +18,6 @@ class ApiClient extends AbstractApiClient {
           options.baseUrl = (await _addBaseURL(options)) ?? '';
         }
 
-        // var tokenDetails = await tokenRepository.getTokenDetails();
-        String? refreshedToken;
-        // if (options.path.contains('/refresh') == false &&
-        //     options.path.contains('/login') == false) {
-        //   refreshedToken = await refreshToken(tokenDetails);
-        // }
-
-        // options.headers = await _addBearerToken(
-        //     options, (refreshedToken ?? tokenDetails?.token ?? ''));
         options.headers['Accept'] = 'application/json';
         return handler.next(options); //continue
       },

@@ -26,7 +26,7 @@ class _CityMapLayoutState extends State<CityMapLayout> {
     _initializeMarkers(cities);
 
     //as for moving camera mapController must be initialized
-    Future.delayed(const Duration(milliseconds: 100), () {
+    Future.delayed(const Duration(milliseconds: 500), () {
       _moveCamera();
     });
   }
