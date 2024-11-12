@@ -31,5 +31,5 @@ Cities of the World, Users will be able to see cities of the world with name, co
    dart run build_runner watch
 
    ```
-# Note: "I've included my maps API in the project, so you can run the application on your machine as well." 
+# Note: "I've included my map's API key in the project, so you can run the application on your machine as well." 
 
