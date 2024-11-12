@@ -46,6 +46,6 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>IOVSServiceAppIdentifier</key>
-    <string>AIzaSyAeENGc9VLLQwX3y3TsdXXoGtsKGW7IhQM</string>
+    <string>YourMapApiKeyHere</string>
 </dict>
 </plist>

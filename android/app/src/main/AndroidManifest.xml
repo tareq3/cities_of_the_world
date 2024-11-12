@@ -6,7 +6,7 @@
         android:label="cities_of_the_world">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD1Ej_J3mo6Aj0eafp1fOei6JmX2ctZhCs" />
+            android:value="please_put_your_map_api_key_here" />
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
