@@ -25,11 +25,16 @@ Cities of the World, Users will be able to see cities of the world with name, co
    ```bash
    git clone https://github.com/tareq3/cities_of_the_world.git
    ```
-2. ```bash
+2. Please put your Android map api key on https://github.com/tareq3/cities_of_the_world/blob/main/android/app/src/main/AndroidManifest.xml
+
+3. Please put your iOS map api key on https://github.com/tareq3/cities_of_the_world/blob/main/ios/Runner/Info.plist
+
+4. ```bash
    cd cities_of_the_world
    flutter pub get
    dart run build_runner watch
 
-   ```
-# Note: "I've included my map's API key in the project, so you can run the application on your machine as well." 
+   ``` 
+### test apk: https://github.com/tareq3/cities_of_the_world/blob/main/outputs/app-release.apk
 
+### Note: if you are facing any trouble or you need map api key please let me know, I will be happy to help.
